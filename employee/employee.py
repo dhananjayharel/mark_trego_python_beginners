@@ -1,5 +1,5 @@
 class Employee:
-	'Base class for out Employees'
+	'Base class for our Employees'
 	
 	#Class Data Attributes
 	first_name = 'Jaddian'
