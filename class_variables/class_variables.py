@@ -1,10 +1,8 @@
 class Employee:
-	'Base class for Employee'
-	
-	#Class Variables
-	
-    employeeCount	= 0
-	payRate = 10
+    'Base class for Employee'
+    #Class Variables
+    employeeCount = 0
+    payRate = 10
 
 	
 def __init__(self):
@@ -14,4 +12,3 @@ def __init__(self):
 
 
 print('Employee Count:', Employee.employeeCount)
-
