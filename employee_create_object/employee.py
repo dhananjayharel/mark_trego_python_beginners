@@ -8,9 +8,9 @@ class Employee:
 	uid = '321'
 	
 def main():
-	print('First name:', Employee.first_name)
-	print('Last name:', Employee.last_name)
-	print('Age:', Employee.age)
-	print('User id:', Employee.uid)
+	employee_01 = Employee()
+	employee_02 = Employee()
+	employee_03 = Employee()
+	
 
 main()

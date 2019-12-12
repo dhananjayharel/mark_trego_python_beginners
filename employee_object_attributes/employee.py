@@ -1,21 +1,20 @@
 class Employee:
 	'Base class for our Employees'
 	
-	#Class Data Attributes
-	first_name = 'Jaddian'
-	last_name = 'Forte'
-	age = '29'
-	uid = '321'
+	def __init__(self):
+		self.first_name = 'Jaddian'
+		self.last_name = 'Forte'
+		self.uid = '855'
 
-def get_fist_name(self):
-	return self.first_name
+	def get_first_name(self):
+		return self.first_name
 
 
-def get_last_name(self):
-	return self.last_name
+	def get_last_name(self):
+		return self.last_name
 
-def get_uid(self):
-	return self.uid
+	def get_uid(self):
+		return self.uid
 
 	
 def main():
