@@ -1,22 +1,20 @@
 class BankAccount:
 	'Base class for our Employees'
 	
-	def __init__(self):
-		print('Creating new object...')
+	def __init__(self, my_initial_balance):
+		self.balance = my_initial_balance
 		
-	def __del__(self):
-		print('Deleting used object...')
+	def get_balance(self):
+		return self.balance
 		
 	
 def main():
-	object1 = MyClass()
-	object2 = MyClass()
-	object3 = MyClass()
+	#Create new bank account
+	account = BankAccount(500)
+	print('Current balance $', account.get_balance())
 	
-	print('\n\n')
-	del(object1)
-	del(object2)
-	del(object3)
+	account.balance += 800000	
+	print('New balance $', account.get_balance())
 	
-
+	
 main()
