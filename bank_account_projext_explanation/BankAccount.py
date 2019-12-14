@@ -12,15 +12,9 @@ class BankAccount:
 	def get_account_details(self):
 		print('First name:', self.__first_name)
 		print('Last name:', self.__last_name)
-		print('Account umber:', self.__account_number)
+		print('Account number:', self.__account_num)
 		print('Balance:', self.__balance)		
 		print()
-		
-		def get_balance(self):
-		return self.__balance
-		
-	def deposit(self, amount_to_deposit):
-		self.__balance += amount_to_deposit	
 		
 		
 	
